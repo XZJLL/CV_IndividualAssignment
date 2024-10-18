@@ -18,10 +18,15 @@
     cv2.cvtColor(), cv2.threshold(),cv2.GaussianBlur(),cv2.Canny(),cv2.findContours(),cv2.warpPerspective() and so on
     For image displaying I use cv.imshow() and matpolitlib. 
     In version 2 & 3 I add Trackbar and mouse call-back fucntion into the program.
+### flow chart of Version 1:
+    ![image](https://github.com/user-attachments/assets/d0fe6126-02bd-4c76-8945-33c7d73f9edd)
+
 ### result
     In version 1, the speed of the program is below 1 second and the program gets most of the words and draw boxes around them.
+    The result of preprocessed image displayed in windows and the OCR output save in text file and can be printed on terminal. 
     In version 2, users can use Trackbar to adjust the variables in the function, and the result of version 2 is similar to that of version 1.
     In version 3, users can use mouse to adjust the persbective transformation, and select the ROI. The result of version 3 is not as good as the previous two
         because of the resizes and distortion make the image lost many pixels.
-        
+### what can be improved
+    Maybe use QT to let users choose different combinations of function as they like would be better.
     
