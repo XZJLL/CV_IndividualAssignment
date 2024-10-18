@@ -18,9 +18,6 @@
     cv2.cvtColor(), cv2.threshold(),cv2.GaussianBlur(),cv2.Canny(),cv2.findContours(),cv2.warpPerspective() and so on
     For image displaying I use cv.imshow() and matpolitlib. 
     In version 2 & 3 I add Trackbar and mouse call-back fucntion into the program.
-### flow chart of Version 1:
-    ![image](https://github.com/XZJLL/CV_IndividualAssignment/blob/main/CDS540_A1_V1.drawio.png)
-
 ### result
     In version 1, the speed of the program is below 1 second and the program gets most of the words and draw boxes around them.
     The result of preprocessed image displayed in windows and the OCR output save in text file and can be printed on terminal. 
