@@ -19,7 +19,7 @@
     For image displaying I use cv.imshow() and matpolitlib. 
     In version 2 & 3 I add Trackbar and mouse call-back fucntion into the program.
 ### flow chart of Version 1:
-    ![image](https://github.com/user-attachments/assets/d0fe6126-02bd-4c76-8945-33c7d73f9edd)
+    ![image]([https://github.com/user-attachments/assets/d0fe6126-02bd-4c76-8945-33c7d73f9edd](https://github.com/XZJLL/CV_IndividualAssignment/blob/main/CDS540_A1_V1.drawio.png))
 
 ### result
     In version 1, the speed of the program is below 1 second and the program gets most of the words and draw boxes around them.
